@@ -1,0 +1,4 @@
+./metricEvaluator -s data/data_output.txt -r ground_truth/MITCSAIL_relation.txt -o ground_truth/MITCSAIL_logfile.txt -w "{0.0,0.0,0.0,1.0,1.0,1.0}" -eu data/unsorted.errors -e data/output.errors
+ ./metricEvaluator -s data/data_output.txt -r ground_truth/MITCSAIL_relation.txt -o ground_truth/MITCSAIL_logfile.txt -w "{1.0,1.0,1.0,0.0,0.0,0.0}" -eu data/unsorted.errors -e data/output.errors
+
+
